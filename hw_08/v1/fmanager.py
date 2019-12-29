@@ -11,9 +11,8 @@ info = '''
 '''
 
 import sys
-import os
-from core import create_file, create_folder, get_list, delete_file, copy_file, save_info, change_dir
-from game_inversed import game_inversed
+from data.core import create_file, create_folder, get_list, delete_file, copy_file, save_info, change_dir
+from data.game_inversed import game_inversed
 
 save_info('Старт')
 
